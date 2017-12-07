@@ -46,19 +46,55 @@
       </table>
     </section>
     <section>
-      <form class="" title="Agregar Estudios" action="index.html" method="post">
-        <h3>Agregar Estudios</h3>
-        <p>
-          <label for="anio">Año:</label>
-          <br>
-          <input type="number"   max="2017" min= "1920" step="1" name="anio" value="2017" required>
-        </p>
-        <p>
-          <input type="submit" value="Registrar">
-        </p>
-      </form>
+      <form class=""  title="Agregar Estudios" action="index.html" method="post">
+
+          <h3>Agregar Estudios</h3>
+          <!--
+          <p>
+            <label for="anio">Año:</label>
+            <br>
+            <input type="year" name="anio2" value="2017" step="1">
+            <input type="number"   max="2017" min= "1920" step="1" name="anio" value="2017" required>
+          </p>
+        -->
+          <p>
+            <label for="anio">Año:</label>
+            <br>
+            <select name ="anio">
+              <option value="1">2017</option>
+              <option value="2">2016</option>
+              <option value="3">2015</option>
+              <option value="3">2014</option>
+              <option value="3">2013</option>
+            </select>
+          </p>
+          <p>
+            <label for="instituto">Institución:</label>
+            <br>
+            <input type="text" name="instituto" autofocus required>
+          </p>
+          <p>
+            <label for="lugar">Lugar:</label>
+            <br>
+            <textarea  name="lugar" cols="30" rows="3" required></textarea>
+          </p>
+          <p>
+            <label for="culmino">¿Culminó?:</label>
+              <input type="radio" value="1" name="culmino"> Si
+              <input type="radio" value="0" name="culmino"> No
+          </p>
+          <p>
+            <input type="submit" value="Registrar">
+          </p>
+        </form>
     </section>
     <footer>
+      <p>@Derechos Reservados.</p>
+      <ul>
+        <li><strong>Email:</strong>katifranco@hotmail.com</li>
+        <li><strong>Teléfono:</strong>908-9320-909</li>
+        <li><strong>Dirección:</strong>Ecuador-Guayaquil</li>
+      </ul>
     </footer>
   </body>
 </html>
