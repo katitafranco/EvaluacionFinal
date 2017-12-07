@@ -2,9 +2,63 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Hoja de Vida</title>
   </head>
   <body>
-
+    <header>
+      <img src="img/logo.svg" alt="Logo CV" title="Katiuska Franco" width=130 height="100"/>
+      <h1>Hoja de Vida</h1>
+      <h2>Katiuska Franco</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educación</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+    <h2>Educación</h2>
+    <section>
+      <table border="1">
+        <thead>
+          <tr>
+            <td><strong>Año</strong></td>
+            <td><strong>Institución</strong></td>
+            <td><strong>Lugar</strong></td>
+            <td><strong>¿Culminó?</strong></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2008</td>
+            <td>UNIVERSIDAD CATÓLICA DE SANTIAGO DE GUAYAQUIL</td>
+            <td>Guayaquil-EC</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2001</td>
+            <td>CONTADOR - CD</td>
+            <td>Guayaquil-EC</td>
+            <td>Si</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <form class="" title="Agregar Estudios" action="index.html" method="post">
+        <h3>Agregar Estudios</h3>
+        <p>
+          <label for="anio">Año:</label>
+          <br>
+          <input type="number"   max="2017" min= "1920" step="1" name="anio" value="2017" required>
+        </p>
+        <p>
+          <input type="submit" value="Registrar">
+        </p>
+      </form>
+    </section>
+    <footer>
+    </footer>
   </body>
 </html>
